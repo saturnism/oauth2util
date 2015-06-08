@@ -12,21 +12,25 @@ Installation
 
 To install:
 
-    git clone https://github.com/saturnism/oauth2util.git
-    cd oauth2util
-    go get
+    $ git clone https://github.com/saturnism/oauth2util.git
+    $ cd oauth2util
+    $ go get
 
 To install it into `$GOBIN`
 
-    go install
+    $ go install
 
 To run it as is:
 
-    go run oauth2util.go
+    $ go run oauth2util.go
 
 To build:
 
-    go build oauth2util.go
+    $ go build oauth2util.go
+
+To build for multiple platforms using Docker:
+
+    $ script/build
 
 Example Usage
 =============
